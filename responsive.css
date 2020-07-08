@@ -7,7 +7,7 @@
         font-weight: bold;
     }    
     .navbar-brand {
-        padding-left: 65px;
+        padding-left: 40px;
     }
     header .header-text {
         padding-left: 60px;
@@ -17,6 +17,9 @@
     }
     .footer-text {
         padding-right: 67px;
+    }
+    .testimonial img {
+        margin-right: 15px;
     }
 } 
 
@@ -41,3 +44,26 @@
         
     }
 } 
+@media only screen and (max-width: 767px) and (min-width: 576px)  {
+    .online-courses .btn.header-btn2 {
+        padding: 6px 13px;
+    }
+    .online-courses .header-btn2 {
+        font-size: 14px;
+        line-height: 16px;	
+    }
+    .online-courses .card-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .online-courses .text-muted {
+        font-size: 14px;	
+    }
+    .online-courses .card-footer p {
+        font-size: 12px;
+        
+    }
+    header .header-image {
+        margin-top: 50px;
+    }
+    } 

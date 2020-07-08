@@ -14,7 +14,7 @@ nav {
 	color: #212529;
 	text-align: left;
 }
-
+/* header css starts */
 .header{
     width:100%;
     background-color: #F0FFF0;
@@ -49,7 +49,7 @@ color: #fff !important;
 	font-size: 16px;
 	font-weight: 100;
 }
-
+/* icon css starts */
 .icon {
 	background: #F8FFFB;
 	border-radius: 10px;
@@ -69,9 +69,9 @@ color: #fff !important;
 }
 .icon:hover {
 	background: #fff;
-    /* border: 1px solid #eee; */
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
+/* .onlinecourses css starts */
 .online-courses h2, .testimonial h2{
     font-size: 36px;
     line-height: 54px;
@@ -97,16 +97,6 @@ color: #fff !important;
     color: #413960;
 
 }
- /* .courses-btn {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    border-radius: 33px;
-    font-family: Roboto;
-    font-size: 16px;
-    margin: 10px 0px;
-    padding: 8px 28px;
-}  */
 .card-footer {
 	background-color: rgba(255, 255, 255, 0.03);
 	border-top: 0px solid rgba(0,0,0,.125);
@@ -129,6 +119,7 @@ color: #fff !important;
 	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
 	border-radius: 18px;
 }
+/* testimonial css starts */
 .testimonial p{
     font-family: Poppins;
     font-weight: 100;
@@ -136,6 +127,7 @@ color: #fff !important;
     line-height: 30px;
     color:#000;
 }
+/* footer css */
 footer{
     background: #282531;
     color:#eee;
@@ -148,5 +140,14 @@ footer{
 footer li {
 	list-style: none;
 }
+footer p {
+	text-align: center;
+}
 
+.carousel-item{
+    padding: 60px 40px;
+    text-align: center;
+    color:#fff;
+}
 
+/**/
