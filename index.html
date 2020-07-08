@@ -6,11 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     
 </head>
 <body>
+
 <!-- header section starts -->
-    <section class="header">
+    <header class="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand" href="#"><img src="images/ICON/Logo.png" alt=" E-School"></a>
@@ -18,13 +20,13 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-lg-flex flex-lg-row-reverse" id="navbarNavAltMarkup">
-                <div class="navbar-nav  ">
-                    <a class="nav-item nav-link active px-4" href="#">Books <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link px-4" href="#">Cources</a>
-                    <a class="nav-item nav-link px-4" href="#">Others</a>
-                    <a class="nav-item nav-link px-4" href="#">Blog</a>
-                    <a class="nav-item nav-link px-4 header-btn" href="#">SIgn in</a>                  
-                </div>
+                    <div class="navbar-nav  ">
+                        <a class="nav-item nav-link active px-4" href="#">Books <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link px-4" href="#">Cources</a>
+                        <a class="nav-item nav-link px-4" href="#">Others</a>
+                        <a class="nav-item nav-link px-4" href="#">Blog</a>
+                        <a class="nav-item nav-link px-4 header-btn" href="#">SIgn in</a>                  
+                    </div>
                 </div>
             </nav>
         </div>
@@ -41,8 +43,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 <!-- header section end  -->
+
 <!-- icon-box section start -->
     <section class="container  ">
         <div class="row py-5">
@@ -77,77 +80,132 @@
         </div>
     </section>
 <!-- icon-box section End -->
+
 <!-- online courses section starts -->
-<section>
-    <div class="container online-courses">
-        <h2 class="d-flex justify-content-center">Online Courses</h2>
-        <div class="card-deck">
-            <div class="card">
-              <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Modern Psychology</h5>
-                <small class="text-muted">Designation</small><br>
-                <button class="btn header-btn2 "> Get Started</button>
-              </div>
-              <div class="card-footer">
-                <div class="row d-flex justify-content-between ">
-                    <div class="col-7 d-flex justify-content-start ">
-                        <img src="images/ICON/calendar.png" alt="" >
-                        <p>Start 20 April, 2021</p>
-                    </div>
-                    <div class="col-5 d-flex justify-content-end">
-                        <img src="images/ICON/calendar.png" alt="" >
-                        <p>60 sits</p>
-                    </div>
-                </div>              
-              </div>
-            </div>
-            <div class="card">
-                <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+
+    <section>
+        <div class="container online-courses">
+            <h2 class="d-flex justify-content-center">Online Courses</h2>
+            <div class="card-deck">
+                <div class="card">
+                <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Modern Psychology</h5>
-                  <small class="text-muted">Designation</small><br>
-                  <button class="btn header-btn2 "> Get Started</button>
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <small class="text-muted">Designation</small><br>
+                    <button class="btn header-btn2 ">Buy Course</button>
                 </div>
                 <div class="card-footer">
                     <div class="row d-flex justify-content-between ">
-                        <div class="col-7 d-flex justify-content-start ">
+                        <div class="col-7 col-sm-12 col-md-7 d-flex justify-content-start ">
                             <img src="images/ICON/calendar.png" alt="" >
                             <p>Start 20 April, 2021</p>
                         </div>
-                        <div class="col-5 d-flex justify-content-end">
-                            <img src="images/ICON/calendar.png" alt="" >
+                        <div class="col-5 col-sm-12 col-md-5 d-flex justify-content-end justify-content-sm-start">
+                            <img src="images/ICON/people.png" alt="" >
                             <p>60 sits</p>
                         </div>
                     </div>              
-                  </div>
-            </div>
-            <div class="card">
-                <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Modern Psychology</h5>
-                  <small class="text-muted">Designation</small><br>
-                  <button class="btn header-btn2 "> Get Started</button>
                 </div>
-                <div class="card-footer">
-                    <div class="row d-flex justify-content-between ">
-                        <div class="col-7 d-flex justify-content-start ">
-                            <img src="images/ICON/calendar.png" alt="" >
-                            <p>Start 20 April, 2021</p>
-                        </div>
-                        <div class="col-5 d-flex justify-content-end">
-                            <img src="images/ICON/calendar.png" alt="" >
-                            <p>60 sits</p>
-                        </div>
-                    </div>              
-                  </div>
-              </div>
-          </div>
-    </div>
-</section>
+                </div>
+                <div class="card">
+                    <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <small class="text-muted">Designation</small><br>
+                    <button class="btn header-btn2 ">Buy Course</button>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row d-flex justify-content-between ">
+                            <div class="col-7 d-flex justify-content-start ">
+                                <img src="images/ICON/calendar.png" alt="" >
+                                <p>Start 20 April, 2021</p>
+                            </div>
+                            <div class="col-5 col-sm-12 col-md-5 d-flex justify-content-end justify-content-sm-start">
+                                <img src="images/ICON/people.png" alt="" >
+                                <p>60 sits</p>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <small class="text-muted">Designation</small><br>
+                    <button class="btn header-btn2 ">Buy Course</button>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row d-flex justify-content-between ">
+                            <div class="col-7 col-sm-12 col-md-7 d-flex justify-content-start  ">
+                                <img src="images/ICON/calendar.png" alt="" >
+                                <p>Start 20 April, 2021</p>
+                            </div>
+                            <div class="col-5 col-sm-12 col-md-5 d-flex justify-content-end justify-content-sm-start">
+                                <img src="images/ICON/people.png" alt="" >
+                                <p>60 sits</p>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- online courses section ends -->
 
+<!-- testimonial section start -->
+    <section class="testimonial">
+        <div class="container pb-5">
+            <h2 class="d-flex justify-content-center pt-5">Testimonial</h2>
+            <div class="row pb-5 ">
+                <div class="col-md-4 d-flex justify-content-md-end justify-content-center pb-2">
+                    <img src="images/Photos/Man.png" alt="" width="120px" height="120px">
+                </div>
+                <div class="col-md-8 d-flex align-items-center pb-2">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- testimonial section end -->
 
+<!-- footer starts -->
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-5 pt-5  footer-text">
+                    Millions of people of all ages and from around the world are improving their lives with us 
+                </div>
+
+                <div class="col-md-7 ">
+                    <div class="row">
+                        <div class="col-md-4 pt-5">
+                            
+                            <h5>Course</h5>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business Marketing </li>
+                            <li>Engineering</li>
+                        </div>
+                        <div class="col-md-4 pt-5">
+                            <h5>Terms</h5>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business Marketing </li>
+                            <li>Engineering</li>
+                        </div>
+                        <div class="col-md-4 pt-5">
+                            <h5>Useful Link</h5>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business Marketing </li>
+                            <li>Engineering</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- footer ends -->
 
 
 

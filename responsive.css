@@ -1,0 +1,43 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    h1{
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: bold;
+    }    
+    .navbar-brand {
+        padding-left: 65px;
+    }
+    header .header-text {
+        padding-left: 90px;
+    }
+    header .header-image {
+        padding-right: 70px;
+    }
+    .footer-text {
+        padding-right: 67px;
+    }
+} 
+
+/* mobile device 768px and below) */
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 28px;
+    }  
+    header .header-image {
+        margin-top: 50px;
+    }
+    header .header-text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    footer div{
+        padding:10px;
+        font-size: 14px;
+    }
+    .testimonial p{
+        padding:10px 20px;
+        
+    }
+} 
